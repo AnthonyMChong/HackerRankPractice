@@ -1,0 +1,7 @@
+https://www.hackerrank.com/challenges/python-time-delta/problem
+
+2
+Sun 10 May 2015 13:54:36 -0700      represents a 7 hour time difference
+Sun 10 May 2015 13:54:36 -0000
+Sat 02 May 2015 19:54:36 +0530      represents a 5 hour and 30 min time difference
+Fri 01 May 2015 13:54:36 -0000
