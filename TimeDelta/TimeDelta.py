@@ -5,6 +5,7 @@ import os
 import random
 import re
 import sys
+import calendar
 
 def formatToSec ( unFormatedTime ):
     totalseconds = 0
@@ -13,6 +14,9 @@ def formatToSec ( unFormatedTime ):
     if TimeList[1] == "-":
         return totalseconds * -1
     return totalseconds
+
+def dayCount (unFormatedTime):
+    totalDays = 
 
 
 # Complete the time_delta function below.
@@ -32,8 +36,10 @@ if __name__ == '__main__':
 
     # for t_itr in xrange(t):
     #     t1 = raw_input()
+    # Sat 02 May 2015 19:54:36 +0530
+# Fri 01 May 2015 13:54:36 -0000
 
     #     t2 = raw_input()s
-    t1 = "Sun 10 May 2015 13:54:36 -0700"
-    t2 = "Sun 10 May 2015 13:54:36 -0000"
+    t1 = "Sat 02 May 2015 19:54:36 +0530"
+    t2 = "Fri 01 May 2015 13:54:36 -0000"
     time_delta(t1, t2)
