@@ -1,10 +1,3 @@
-# ways to print unique chars in a string
-nonuString = "AABCAAADA"
-
-method1 = ''.join(set(nonuString))
-print method1
-
-
 def method2function ( nonuString ) :
     charlist = [0] * 256
     uniquechars = []
@@ -16,5 +9,11 @@ def method2function ( nonuString ) :
         charlist[ord(mychar)] += 1
     return ''.join(uniquechars)
 
-method2 = method2function(nonuString)
-print method2
+if __name__ == '__main__':
+    # ways to print unique chars in a string
+    nonuString = "AABCAAADA"
+
+    method1 = ''.join(set(nonuString))
+    print method1
+    method2 = method2function(nonuString)
+    print method2

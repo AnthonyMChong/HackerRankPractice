@@ -1,6 +1,12 @@
+import splitinton
+import uniquechars
+
 def merge_the_tools(string, k):
     # your code goes here
-    print string
+    splitList = splitinton.splitN(string , k)
+    # print splitList
+    for sL in splitList:
+        print uniquechars.method2function(sL)
 
 
 if __name__ == '__main__':
