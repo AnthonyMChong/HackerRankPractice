@@ -4,7 +4,7 @@ import uniquechars
 def merge_the_tools(string, k):
     # your code goes here
     splitList = splitinton.splitN(string , k)
-    # print splitList
+    print splitList
     for sL in splitList:
         print uniquechars.method2function(sL)
 
